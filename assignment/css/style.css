@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html body{
+	height: 100%;
+	width: 100%;
+
+}
+
+header{
+	background-color: #691818;
+}
+nav{
+	float: right;
+	margin-top: 50px;
+    margin-right: 183px;
+}
+a{
+	text-decoration: none;
+    color: white;
+    margin-left: 32px;
+    border: 1px solid;
+    padding: 10px 30px;
+    font-family: wide;
+}
+a:hover{
+	background: #520c0c;
+	border-radius: 13px;
+}
+.logo-section{
+	width: 5%;
+	display: inline-block;
+}
+.logo-section img{
+	width: 100%;
+    margin-top: 17px;
+    margin-left: 150px;
+}
+section.bg-section{
+	margin: 0;
+	background: url(../alone.jpeg) center no-repeat;
+	padding: 288px;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+section.bg-section h1{
+	text-align: center;
+    font-family: sans-serif;
+    font-style: unset;
+    font-size: 100px;
+    font-weight: lighter;
+    font-variant: normal;
+    border: 1px solid;
+    color: #520c0c;	
+
+}
+.sec2-class{
+	background: url(../alone2.jpeg) center no-repeat;
+	padding: 288px;
+    background-attachment: scroll;
+    background-size: cover;
+}
+ section.sec2-class h2{	
+ 	margin-top: -270px;
+	text-align: center;
+	font-family: sans-serif;
+    font-style: unset;
+    font-size: 50px;
+    font-weight: lighter;
+    font-variant: normal;
+    border: 1px solid;
+    color: #fff;
+
+ }
+ div.p-div{
+ 	display: inline-block;
+ 	width: 49%;
+ 	border: 1px solid white;
+  }
+
+ div.p-div img{
+ 	vertical-align: 100px;
+ 	width: 250px;
+ 	height: auto;
+ 	margin-left: 120px;
+ 	margin-top: 100px;
+
+ }	
+
+div.p-div p{
+	margin-top: 436px;
+	height: 55px;
+
+
+}
